@@ -61,10 +61,15 @@ class HealthInsurance(object):
         return data[cols_selected]
 
     def get_prediction(self, model, original_data, test_data):
-        # Model Prediction
+        # model prediciton
         pred = model.predict_proba(test_data)
 
-        # Join prediction into original data
-        original_data['prediction'] = pred[:, 1].tolist()
+        # creating a prediction dataframe of the predict_proba (class 0 and 1 predictions)
+        table_proba = pd.DataFrame(pred)
+
+        # join prediction into original data
+        original_data['Score'] = table_proba[1]
+
+        original_data.sort_values('Score', ascending=False, inplace=True)
 
         return original_data.to_json(orient='records', date_format='iso')
