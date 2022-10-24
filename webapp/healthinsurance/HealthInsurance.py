@@ -15,7 +15,7 @@ class HealthInsurance( object ):
     def data_cleaning(self, data):
         cols_new = ['id', 'gender', 'age', 'driving_license', 'region_code',
                     'previously_insured', 'vehicle_age', 'vehicle_damage',
-                    'annual_premium', 'policy_sales_channel', 'vintage', 'response']
+                    'annual_premium', 'policy_sales_channel', 'vintage']
 
         data.columns = cols_new
 
