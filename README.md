@@ -66,7 +66,7 @@ No | 	0,52% | 99,48%
   
 ## **2 - Customers with older cars have a higher conversion rate**
 
-Vehicle Damage   | Interested in vehicle insurance | Not interested in vehicle insurance
+Vehicle Age   | Interested in vehicle insurance | Not interested in vehicle insurance
 :--------- | :------ | :------
 Below 1 year | 4,37% | 95,63%
 Between 1 and 2 years | 	17,38% | 82,62%
@@ -130,14 +130,14 @@ most likely to purchase the new product.
 https://user-images.githubusercontent.com/103151311/197268583-6722a632-aec4-4ac0-8ea8-3f6d04d439c9.mp4
 
 
-# 8. Conclusions
+# 7. Conclusions
 
 With this model, it is expected that the company's profit will increase due to the decrease in the cost of random calls,
 and also the customer conversion rate will be higher.
 
 the sales department will have a very easy access through google sheets to decide the order of their calls.
 
-# 9. Next Steps
+# 8. Next Steps
 
 For future learning to rank problems or new CRISP rounds for this business scenario, consider training these models:
 
