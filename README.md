@@ -66,7 +66,7 @@ No | 	0,52% | 99,48%
   
 ## **2 - Customers with older cars have a higher conversion rate**
 
-Vehicle Damage   | Interested in vehicle insurance | Not interested in vehicle insurance
+Vehicle Age   | Interested in vehicle insurance | Not interested in vehicle insurance
 :--------- | :------ | :------
 Below 1 year | 4,37% | 95,63%
 Between 1 and 2 years | 	17,38% | 82,62%
