@@ -14,7 +14,7 @@ They want to sell car insurance to people who already is their client with a bas
 
 ## 2.1. Problem
 The business team have a budget to contact 20.000 people and they want to manage to sell the new product for the maximum clients possible,
-but they have and order to contact this 381.109 clients.
+but they have no order to contact this 381.109 clients.
 
 + Limited calls to contact clients;
 + Current method is random calls.
